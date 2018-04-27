@@ -71,7 +71,7 @@ particlesJS('particles-js',
       "enable": true,
       "speed": 15,
       "direction": "none",
-      "random": true,
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -90,7 +90,7 @@ particlesJS('particles-js',
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": false
@@ -110,8 +110,8 @@ particlesJS('particles-js',
         "speed": 3
       },
       "repulse": {
-        "distance": 250,
-        "duration": 0.6
+        "distance": 200,
+        "duration": 0.4
       },
       "push": {
         "particles_nb": 4
