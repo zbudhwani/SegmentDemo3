@@ -49,6 +49,8 @@
             <div class="col-xl-4"></div>
             <div class="col-xl-4">
               <div class="m-portlet m-portlet--bordered-semi m-portlet--widget-fit m-portlet--full-height m-portlet--skin-light  m-portlet--rounded-force">
+                <div class="row">
+                <img style="width:50%; height:50%; margin-top: 35px; margin-left: 25%; margin-bottom: 45px;" src="logo.png"></img></div>
                 <div class="m-portlet__head">
                   <div class="m-portlet__head-caption">
                     <div class="m-portlet__head-title">
@@ -62,22 +64,29 @@
                 </div>
                 <div class="m-portlet__body">
                   <div>
-                      <div style="height:300px;">
+                      <div style="height:135px;">
                         <form id="staticrypt-form" action="#" method="post">
                             <input id="staticrypt-password"
+                                    class="form-control m-input m-input--square"
                                    type="password"
                                    name="password"
                                    placeholder="Enter passphrase"
                                    autofocus/>
+                                 <br>
 
-                            <input type="submit" class="staticrypt-decrypt-button" value="Continue"/>
+                            <input style="margin-bottom:10px;" type="submit" class="staticrypt-decrypt-button btn m-btn--square  btn-primary btn-block" value="Continue"/>
+                            <span style="font-size:12px;">Forgot your password? <a href="https://databankcx.slack.com/messages/C9HP2433M/">Contact us</a></span>
                         </form>
 
                       </div>
+                      <hr style="border: 0.5px solid rgba(0,0,0,.1); margin-top: 40px;">
+                      <span style="font-size:12px; ">Segment 2018 v0.1</span>
                     </div>
                   </div>
+
+
               </div>
-              <div class="col-xl-4"> < </div>
+              <div class="col-xl-4"></div>
               </div>
 
               <!--end:: Widgets/Activity-->

@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>
-			Metronic
+			Segment
 		</title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,37 +43,28 @@
 							<div class="col-xl-4">
 								<div class="m-portlet m-portlet--bordered-semi m-portlet--widget-fit m-portlet--full-height m-portlet--skin-light  m-portlet--rounded-force">
 									<div class="m-portlet__head">
+										<img src="logo.svg"></img>
 										<div class="m-portlet__head-caption">
 											<div class="m-portlet__head-title">
 												<h2>
-													This could take sometime.
+													The Segment tool will listen to your call and break them down for analysis.
 												</h2>
 												<br>
-												<p> Leave your email address here and we'll send you thew results when they are ready.</p>
+												<p> Go ahead and upload a WAV audio file to continue.</p>
 											</div>
 										</div>
 									</div>
 									<div class="m-portlet__body">
 										<div>
-													<form class="m-form m-form--fit m-form--label-align-right" id="m_form_1" novalidate="novalidate">
-														<div class="m-portlet__body">
-															<div class="m-form__content">
-																	<label>Email *</label>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="row">
-																	<div class="col-md-10">
-																	<input type="text" class="form-control m-input" name="email" placeholder="Enter your email"  aria-invalid="false" aria-describedby="email-error">
-																  </div>
-																	<div class="col-md-2">
-																	<button type="button" class="btn m-btn--square  btn-primary m-btn m-btn--custom">Email me!</button>
-																	</div>
-																</div>
-																</div>
-															</div>
-													</form>
+												<div style="height:200px;">
+													<form action="../assets/global/plugins/dropzone/upload.php" class="dropzone dropzone-file-area dz-clickable" id="my-dropzone" style="width: 425px; margin-top: 50px;">
+																					<h3 class="sbold">Drop files here or click to upload</h3>
+																					<p> We need a single .wav file from you! </p>
+																			<div class="dz-default dz-message"><span></span></div></form>
 												</div>
 											</div>
+											<hr style="border: 0.5px solid rgba(0,0,0,.1); margin-top: 40px;">
+											<span style="font-size:12px; ">Segment 2018 v0.1</span>
 										</div>
 								</div>
 								<div class="col-xl-4"> < </div>
@@ -111,9 +102,6 @@
         <!--begin::Page Snippets -->
 		<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
 		<!--end::Page Snippets -->
-		<script src="./assets/demo/default/custom/components/forms/validation/form-controls.js" type="text/javascript"></script>
-					<!--end::Page Resources -->
-<!-- end::Body -->
-<script type="text/javascript">( function(){ window.SIG_EXT = {}; } )()</script>
-</body>
+	</body>
+	<!-- end::Body -->
 </html>
